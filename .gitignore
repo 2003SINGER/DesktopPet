@@ -1,0 +1,21 @@
+# Build directories (CMake / CLion)
+cmake-build-debug/
+cmake-build-debug-stm32/
+build/
+Debug/
+Release/
+
+# WorkBuddy AI internal data
+.workbuddy-ai/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# STM32 generated binaries (keep sources, skip artifacts)
+*.bin
+*.hex
+*.elf
+*.map
